@@ -1,0 +1,6 @@
+/etc/logrotate.conf.vyatta perl -0pe 's|(/var/log/wtmp \{\n.*create )0664( root utmp\n[^}]+\n\})|${1}0660${2}|s'
+
+/usr/lib/tmpfiles.d/var.conf.vyatta sed -e 's|^f /var/log/wtmp 0664|f /var/log/wtmp 0660|g'
+
+/usr/lib/tmpfiles.d/systemd.conf.vyatta sed -e 's|^F! /run/utmp 0664|F! /run/utmp 0660|g'
+

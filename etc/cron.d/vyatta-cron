@@ -1,0 +1,3 @@
+# disable emailing of cron output
+MAILTO=""
+

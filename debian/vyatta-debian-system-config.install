@@ -1,0 +1,2 @@
+/etc/rsyslog.conf.vyatta
+/etc/cron.d/vyatta-cron
