@@ -10,7 +10,7 @@
 
 # load structured data from the journal instead of imuxsock + imklog and parse it
 # so that full unit names can be diplayed (eg: sshd@vrf-blue)
-module(load="imjournal" PersistStateInterval="100" IgnorePreviousMessages="on")
+module(load="imjournal" PersistStateInterval="100" IgnorePreviousMessages="on" ImjournalDefaultSeverity="6")
 module(load="mmjsonparse")
 action(type="mmjsonparse")
 
