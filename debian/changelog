@@ -1,3 +1,12 @@
+vyatta-debian-system-config (1.15) unstable; urgency=medium
+
+  [ Nicholas Brown ]
+  * Change ImjournalDefaultSeverity to 'Info' instead of 'Notice'
+
+  [ Daniel Gollub ]
+
+ -- Daniel Gollub <dgollub@att.com>  Tue, 26 Nov 2019 15:22:22 +0100
+
 vyatta-debian-system-config (1.14) unstable; urgency=medium
 
   * Import DANOS Master
