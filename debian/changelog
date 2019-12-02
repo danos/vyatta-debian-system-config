@@ -1,3 +1,13 @@
+vyatta-debian-system-config (1.16) unstable; urgency=medium
+
+  [ Charles (Chas) Williams ]
+  * Fix bad parameter name (Bugfix: VRVDR-49115)
+  * Disable imjournal's WorkAroundJournalBug (Bugfix: VRVDR-49115)
+
+  [ Daniel Gollub ]
+
+ -- Daniel Gollub <dgollub@att.com>  Mon, 02 Dec 2019 14:41:44 +0100
+
 vyatta-debian-system-config (1.15) unstable; urgency=medium
 
   [ Nicholas Brown ]
