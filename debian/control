@@ -2,7 +2,7 @@ Source: vyatta-debian-system-config
 Section: contrib/net
 Priority: extra
 Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
-Build-Depends: debhelper (>= 9.0.0), config-package-dev, logrotate, systemd
+Build-Depends: debhelper (>= 9.0.0), config-package-dev, systemd
 Standards-Version: 3.9.4
 
 Package: vyatta-debian-system-config
@@ -15,7 +15,6 @@ Depends:
  ipvsadm,
  isc-dhcp-relay,
  isc-dhcp-server,
- logrotate,
  ntp,
  radvd,
  rsyslog,
