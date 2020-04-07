@@ -33,6 +33,11 @@ case "$1" in
 	update-rc.d -f dnsmasq remove >/dev/null
 	deb-systemd-helper disable dnsmasq.service
 
+	# disable apt-daily and man-db timers.
+	deb-systemd-helper disable apt-daily.timer
+	deb-systemd-helper disable apt-daily-upgrade.timer
+	deb-systemd-helper disable man-db.timer
+
 	# Udev package asks for user 'tss' early in boot process. Want to avoid
 	# going out to remote services to look for this local user
 	if ! grep -q '^tss' /etc/passwd; then

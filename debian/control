@@ -9,12 +9,14 @@ Package: vyatta-debian-system-config
 Architecture: all
 Depends:
  adduser,
+ apt,
  auditd,
  ddclient,
  dnsmasq,
  ipvsadm,
  isc-dhcp-relay,
  isc-dhcp-server,
+ man-db,
  ntp,
  radvd,
  rsyslog,
