@@ -1,3 +1,10 @@
+vyatta-debian-system-config (1.18) unstable; urgency=medium
+
+  [ Sameer Agrawal ]
+  * Disable apt.daily and man-db timers. VRVDR-49241
+
+ -- Nicholas Brown <nick.brown@att.com>  Tue, 07 Apr 2020 23:02:46 +0100
+
 vyatta-debian-system-config (1.17) unstable; urgency=medium
 
   [ Charles (Chas) Williams ]
