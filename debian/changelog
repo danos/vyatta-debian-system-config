@@ -1,3 +1,10 @@
+vyatta-debian-system-config (1.19) unstable; urgency=medium
+
+  [ Sharmila Podury ]
+  * smartd attempting to send email (Bugfix: VRVDR-52190)
+
+ -- Daniel Gollub <dgollub@att.com>  Thu, 23 Jul 2020 10:48:52 +0200
+
 vyatta-debian-system-config (1.18) unstable; urgency=medium
 
   [ Sameer Agrawal ]
