@@ -81,15 +81,6 @@ case "$1" in
 	# remove the UNCONFIGURED in /etc/fstab
 	sed -i -e '/^# UNCONFIGURED FSTAB FOR BASE SYSTEM/d' /etc/fstab
 
-	# Remove mail options for smartd
-	sed -i -e 's/^DEVICESCAN -d removable -n standby.*/DEVICESCAN -d removable -n standby/' /etc/smartd.conf
-
-	if [ -d /run/systemd/system ]; then
-		systemctl daemon-reload || true
-		if systemctl is-active -q smartd; then
-			systemctl restart smartd || true
-		fi
-	fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
