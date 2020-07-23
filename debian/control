@@ -29,3 +29,10 @@ Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Vyatta changes to the Debian default configuration
  This package includes the Vyatta changes to the Debian default configuration.
+
+Package: vyatta-smartmontools-config
+Architecture: all
+Depends: smartmontools, ${misc:Depends}
+Description: Vyatta changes to the Smartmontools configuration
+ This empty package that includes the Vyatta changes to the
+ Smartmontools configuration.
