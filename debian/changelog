@@ -1,3 +1,10 @@
+vyatta-debian-system-config (1.16.1) unstable; urgency=medium
+
+  [ Nicholas Brown ]
+  * A package with vyatta smartmontools configuration (Fixes: VRVDR-52190)
+
+ -- Daniel Gollub <dgollub@att.com>  Mon, 27 Jul 2020 12:14:31 +0200
+
 vyatta-debian-system-config (1.16) unstable; urgency=medium
 
   [ Charles (Chas) Williams ]
