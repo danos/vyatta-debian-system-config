@@ -1,3 +1,13 @@
+vyatta-debian-system-config (1.20) unstable; urgency=medium
+
+  [ Daniel Gollub ]
+  * Revert "smartd attempting to send email"
+
+  [ Nicholas Brown ]
+  * A package with vyatta smartmontools configuration (Fixes: VRVDR-52190)
+
+ -- Daniel Gollub <dgollub@att.com>  Mon, 27 Jul 2020 12:07:54 +0200
+
 vyatta-debian-system-config (1.19) unstable; urgency=medium
 
   [ Sharmila Podury ]
